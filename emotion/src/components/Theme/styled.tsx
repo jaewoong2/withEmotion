@@ -6,7 +6,7 @@ export type themeType = {
     textColor : string;   
     boxShadow : string;
     darkMode : boolean;
-    
+    child ?: any;
 }
 
 export default styled as CreateStyled<themeType>

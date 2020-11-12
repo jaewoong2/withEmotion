@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import styled, { themeType } from './Theme/styled';
 import { changeModeAction, RootStae } from '../redux/reducer';
 import Header from './Navigation/Header';
+import PostContainer from './Post/PostContainer';
 
 const Main = styled.main`
   width : 100vw;
@@ -21,6 +22,7 @@ const AppContainer = () => {
   return (
    <Main className="App">
       <Header/>
+      <PostContainer />
     </Main>
   );
 }
