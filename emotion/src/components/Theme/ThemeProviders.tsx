@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'emotion-theming'
 import React, { useEffect, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { changeModeAction, RootStae } from '../redux/reducer';
+import { changeModeAction, RootStae } from '../../redux/reducer';
 import { themeType } from './styled';
 
 const white = '#ffffff';
